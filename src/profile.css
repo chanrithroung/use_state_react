@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(211, 230, 251);
+}
+
+
+article {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+    height: 400px;
+    width: 500px;
+    background-color: dodgerblue;
+    border-radius: 24px;
+    box-shadow:  5px 5px 5px rgb(68, 137, 210) ;
+}
+
+article button {
+    font-size: 30px;
+    border-radius: 12px;
+    padding: 10px 40px;
+    border: none;
+    background-color: rgb(87, 168, 250);
+    box-shadow: 3px 3px 5px rgb(1, 127, 253);
+    color: white;
+}
+
+article button:active {
+    background-color: rgb(112, 183, 255);
+}   
+
+
+article h1, article h2 {
+    font-size: 50px;
+    font-family: sans-serif;
+    color: white;
+}
